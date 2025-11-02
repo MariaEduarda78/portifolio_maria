@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maria Eduarda Portifolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#home" class="logo">Meu Portifólio</a>
+      <nav class="navbar" id="nav-menu">
+        <a href="#home" class="active">Início</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div id="menu-icon" class="fas fa-bars"></div>
+    </header>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Olá, eu sou</h3>
+        <h1>Maria Eduarda</h1>
+        <p class="animacao-texto">
+          E eu sou uma <span>desenvolvedora Backend</span>
+        </p>
+        <p>Transformando linhas de código em experiências reais.</p>
+        <div class="social-media">
+          <a href="https://github.com/MariaEduarda78/"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/maria-eduarda-silva-08m/"><i class="fab fa-linkedin"></i></a>
+          
+        </div>
+        <a href="#projetos" class="btn">Ver Projetos</a>
+      </div>
+      <div class="home-img">
+        <img src="img/01.jpeg" alt="Sua Foto" />
+      </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+      <h2 class="heading">Sobre <span>Mim</span></h2>
+      <div class="sobre-content">
+        <p>
+          Estou no 5º período de Ciência da Computação na Universidade Vale do
+          Rio Verde (Unincor), uma jornada que tem me permitido aprofundar meu
+          conhecimento nas bases da programação e da arquitetura de sistemas.
+          Minha paixão reside no Backend, onde a linguagem Java é a minha
+          favorita para construir a lógica robusta e a eficiência dos sistemas.
+          Embora o Frontend me fascine pela possibilidade de criar experiências
+          visuais, é no Back que me sinto desafiada a criar soluções
+          verdadeiramente escaláveis.
+        </p>
+
+        <div class="skills-box">
+          <h3>Minhas Habilidades:</h3>
+          <ul>
+            <li>Desenvolvimento Backend</li>
+            <li>Desenvolvimento Frontend</li>
+            <li>Java</li>
+            <li>APIs REST</li>
+            <li>Spring Boot</li>
+            <li>Banco de Dados</li>
+            <li>GitHub</li>
+          </ul>
+        </div>
+        <a
+          href="curriculo_maria_atual.pdf"
+          download="curriculo_maria_atual.pdf"
+          class="btn download"
+          >Baixar Currículo</a
+        >
+      </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+      <h2 class="heading">Meus Projetos <span>Principais</span></h2>
+      <div class="projetos-container">
+        <div class="projeto-box">
+          <img src="img/03.png" alt="Projeto 1" />
+          <div class="projeto-info">
+            <h4>Explore Word</h4>
+            <p>
+              Projeto Básico sobre agência de viagem (somente visual) utilizando
+              HTML, CSS e JavaScript.
+            </p>
+            <a href="#" target="_blank"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="projeto-box">
+          <img src="img/02.jpg" alt="Projeto 2" />
+          <div class="projeto-info">
+            <h4>Sistema gestão de clientes e pedidos.</h4>
+            <p>
+              Aplicação web Back-end em Spring Boot para gestão completa de
+              Clientes e seus Pedidos, com foco na implementação de arquitetura
+              em camadas e boas práticas de persistência. Com todas as
+              funcionalidades CRUD (Criação, Leitura, Atualização e Exclusão) e
+              refatoração contínua da lógica de negócio. Tecnologias Chave:
+              Java, Framework, Spring Boot, acesso a Dados, spring Data JPA /
+              Hibernate, banco de Dados, MySQL, front-end, Thymeleaf (Views),
+              separação estrita em Controller (Roteamento), Service (Regras de
+              Negócio/Validações) e Model (Entidades/Repositórios). POO:
+              Utilização completa dos princípios da Programação Orientada a
+              Objetos. Mapeamento JPA: Configuração de relações One-to-One e
+              One-to-Many, incluindo CascadeType.REMOVE para garantir a
+              integridade da exclusão.
+            </p>
+            <a href="#" target="_blank"
+              ><i class="fas fa-external-link-alt"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contato" id="contato">
+      <h2 class="heading">Entre em <span>Contato</span></h2>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Nome Completo" />
+          <input type="email" placeholder="Endereço de Email" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Telefone (Opcional)" />
+          <input type="text" placeholder="Assunto do Email" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Sua Mensagem"
+        ></textarea>
+        <input type="submit" value="Enviar Mensagem" class="btn" />
+      </form>
+    </section>
+
+    <footer>
+      <p>MariaEduarda &copy; 2025</p>
+      <a href="#home" class="up-arrow"><i class="fas fa-arrow-up"></i></a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
