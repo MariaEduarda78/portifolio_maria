@@ -304,7 +304,7 @@ header {
     height: 2.5rem;
     background: var(--cor-destaque);
     border-radius: 50%;
-    color: var(--cor-fundo); /* Ícone preto */
+    color: var(--cor-fundo); 
     font-size: 1.2rem;
 }
 
@@ -333,11 +333,9 @@ header {
     resize: none;
 }
 
-.contato form .input-box input {
-    width: 49%;
-}
 
-/* -------------------- 7. Rodapé -------------------- */
+
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -348,7 +346,7 @@ footer {
 }
 
 footer p {
-    font-size: 0.9rem;
+    font-size: 0.9rem;   
 }
 
 .up-arrow {
@@ -363,10 +361,10 @@ footer p {
 
 .up-arrow i {
     font-size: 1.5rem;
-    color: var(--cor-fundo); /* Ícone preto */
+    color: var(--cor-fundo); 
 }
 
-/* -------------------- 8. Responsividade (Media Queries) -------------------- */
+
 @media (max-width: 1200px) {
     header {
         padding: 1.5rem 5%;
@@ -383,7 +381,7 @@ footer p {
     }
 
     .home-img img {
-        width: 70vw; /* Aumenta um pouco a imagem no mobile */
+        width: 70vw; 
         margin-bottom: 2rem;
     }
 
@@ -398,7 +396,7 @@ footer p {
 
 @media (max-width: 768px) {
     #menu-icon {
-        display: block; /* Mostra o ícone de menu hamburger */
+        display: block; 
     }
 
     .navbar {
@@ -416,7 +414,7 @@ footer p {
     }
 
     .navbar.active {
-        display: flex; /* Mostra o menu quando ativo */
+        display: flex; 
     }
 
     .navbar a {
@@ -435,5 +433,6 @@ footer p {
 
     footer p {
         margin-bottom: 1rem;
+        text-align: center;
     }
 }
