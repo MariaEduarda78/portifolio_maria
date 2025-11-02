@@ -18,8 +18,7 @@ Você pode visualizar a versão hospedada do portfólio clicando aqui:
 | :--- | :--- | :--- |
 | **Estrutura** | `HTML5` | Definição da estrutura semântica da página. |
 | **Estilização** | `CSS3` | Design moderno de página única (Single Page) e layout responsivo. |
-| **Interatividade** | `JavaScript (Vanilla)` | Implementação do menu *hamburger* e do **Efeito de Máquina de Escrever** na seção inicial. |
-| **Ícones & Fontes** | `Font Awesome` | Utilização de ícones de redes sociais e design de interface. |
+| **Interatividade** | `JavaScript ` | Implementação responsivo.
 
 ---
 
